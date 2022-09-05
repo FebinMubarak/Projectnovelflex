@@ -1,0 +1,26 @@
+.product-card{
+    cursor: pointer;
+    transform: scale(1,1);
+    transition: transform 0.5 ease;
+    color: #F2e5d7; 
+    margin: 2rem;
+}
+.product-image:hover{
+    transform:scale(1.1,1.1)
+}
+.product-image{
+    border-radius: 15px;
+    background-color: #ebebeb;
+    transform: scale(1,1);
+    transition: transform 0.5s ease;
+
+}
+.product-name{
+    color: #3a3635;
+    font-weight: 500;
+}
+.product-description{
+    font-weight: 800;
+    margin-top: 6px;
+    color: #262322;
+}
